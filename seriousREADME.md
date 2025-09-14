@@ -12,7 +12,7 @@ we ask:
 
 The idea came from everyday experience: when entering an elevator, it often feels like multiple people choose the same floor. This similarity to the Birthday Paradox motivated me to experiment and simulate probabilities for different elevator sizes.
 
----
+
 
 ## 🎯 Goals
 - Model the probability of at least two people selecting the same floor.
@@ -20,7 +20,7 @@ The idea came from everyday experience: when entering an elevator, it often feel
 - Compare results across different numbers of floors (e.g., a 10-floor building vs. a 50-floor building).
 - Visualize how the probability changes as more people enter.
 
----
+
 
 ## 🔧 How It Works
 1. **Simulation-based approach**  
@@ -32,14 +32,13 @@ The idea came from everyday experience: when entering an elevator, it often feel
    - Use combinatorics similar to the Birthday Paradox formula.  
    - Calculate exact probabilities for small numbers.
 
----
 
 ## 📊 Example Questions
 - With 14 people in an elevator and 20 floors, what is the probability at least 2 share the same floor?  
 - How quickly does the probability rise as we increase the number of people?  
 - Does it become "almost certain" (close to 100%) before reaching max capacity?
 
----
+
 
 ## 🚀 Features (Planned)
 - [ ] Run Monte Carlo simulations.  
@@ -47,19 +46,19 @@ The idea came from everyday experience: when entering an elevator, it often feel
 - [ ] Plot graphs to visualize probability curves.  
 - [ ] Compare simulation results with analytical formulas.  
 
----
+
 
 ## 🛠️ Tech Stack
 - Python (simulation & plotting)
 - Libraries: `numpy`, `matplotlib`
 
----
+
 
 ## 📌 Inspiration
 - [The Birthday Paradox](https://en.wikipedia.org/wiki/Birthday_problem)  
 - Elevator thought experiments & everyday curiosity
 
----
+
 
 ## 📈 Future Extensions
 - Allow user to input custom building sizes (e.g., 30 floors, 100 floors).  
